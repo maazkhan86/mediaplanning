@@ -28,6 +28,12 @@ def reach(grps, freq):
 def freq(grps, reach):
     return grps / reach
 
+def ots(grps, reach):
+    return grps / reach
+
+def cpp(cost, grps):
+    return cost / grps
+
 def bdi(brandsales, pop):
     return (brandsales / pop) * 100
 
