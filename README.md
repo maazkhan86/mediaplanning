@@ -1,5 +1,9 @@
 # mediaplanning
-Python package for media planning
+Python package for media planning and is currently in active development mode.
+
+## Features
+
+Currently supports: CTR, Clicks, Impressions, CPM, Cost, CPA, Conversions, GRPs, Reach, Frequency, BDI and CDI.
 
 ## Installation
 
