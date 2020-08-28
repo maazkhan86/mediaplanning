@@ -22,4 +22,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - BDI
 - CDI
 
-## [0.0.1] - This veriosn not released for public
+## [0.0.1] - This version was not released for public
