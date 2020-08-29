@@ -39,3 +39,9 @@ def bdi(brandsales, pop):
 
 def cdi(catsales, pop):
     return (catsales / pop) * 100
+
+def boi(bdi, cdi):
+    return (bdi/cdi) * 100
+
+def adstock(pweight, cweight, decay):
+    return cweight + (decay * pweight)
