@@ -1,5 +1,5 @@
 # mediaplanning
-Python package for media planning and is currently in active development mode.
+Python package for media planning - aimed to be used by media planners.
 
 ## Features
 
