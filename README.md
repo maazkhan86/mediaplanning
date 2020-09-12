@@ -3,7 +3,9 @@ Python package for media planning
 
 ## Features
 
-Currently supports: CTR, Clicks, Impressions, CPM, Cost, CPA, Conversions, GRPs, Reach, Frequency, BDI, CDI, BOI and Adstock.
+Currently supports the following: 
+
+CTR (Click thru rate), Clicks, Impressions, CPM (Cost per thousant), Cost, CPA (Cost per acquisition), Conversions, GRPs (Gross rating points), Reach, TAI (Target audience impressions), Frequency, OTS (Opportunity to see), CPP (Cost per point) BDI (Brand devlopment index), CDI (Category development index), BOI (Brand opportunity index) and Adstock.
 
 ## Installation
 
