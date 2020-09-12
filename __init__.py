@@ -1,7 +1,23 @@
 def ctr(clicks, imp):
+    '''
+    Calculates Clickthrough rate (CTR) from clicks and impressions
+        Parameters:
+            clicks (int): An integer
+            impressions (int): Another integer
+        Returns:
+            ctr (int): clicks / impressions
+    '''
     return clicks / imp
 
 def clicks(imp, ctr):
+    '''
+    Calculates Clicks from Impressions and CTR
+        Parameters:
+            impressions (int): An integer
+            ctr (int): Another integer
+        Returns:
+            clicks (int): impressions * ctr
+    '''
     return imp * ctr
 
 def imp(clicks, ctr):
@@ -25,6 +41,17 @@ def grps(reach, freq):
 def reach(grps, freq):
     return grps / freq
 
+def tai(reachn, freq):
+    '''
+    Calculates Total Audience Impressions (TAI) from reach # and frequency
+        Parameters:
+            reachn (int): An integer
+            frequency (int): Another integer
+        Returns:
+            tai (int): reachn * frequency
+    '''
+    return reachn * freq
+
 def freq(grps, reach):
     return grps / reach
 
@@ -34,11 +61,11 @@ def ots(grps, reach):
 def cpp(cost, grps):
     return cost / grps
 
-def bdi(brandsales, pop):
-    return (brandsales / pop) * 100
+def bdi(bsales, pop):
+    return (bsales / pop) * 100
 
-def cdi(catsales, pop):
-    return (catsales / pop) * 100
+def cdi(csales, pop):
+    return (csales / pop) * 100
 
 def boi(bdi, cdi):
     return (bdi/cdi) * 100
