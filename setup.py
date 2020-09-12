@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='mediaplanning',
-  version='0.0.4',
+  version='0.0.5',
   description='Python package for media planning',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='https://github.com/maazkhan86/mediaplanning',  
